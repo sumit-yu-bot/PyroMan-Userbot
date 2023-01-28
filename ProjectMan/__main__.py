@@ -18,10 +18,10 @@ from ProjectMan.helpers.misc import create_botlog, heroku
 from ProjectMan.modules import ALL_MODULES
 
 MSG_ON = """
-🔥 **PyroMan-Userbot Berhasil Di Aktifkan**
+🔥 **ʜᴇʏ ᴛʜɪꜱ ɪꜱ ꜱᴜᴍɪᴛ ᴜꜱᴇʀʙᴏᴛ**
 ━━
-➠ **Userbot Version -** `{}`
-➠ **Ketik** `{}alive` **untuk Mengecheck Bot**
+➠ **ꜱᴜᴍɪᴛ x ᴜꜱᴇʀʙᴏᴛ -** `{}`
+➠ **🔥🔥𝐒𝐔𝐌𝐈𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄🔥🔥** `{}𝐀𝐋𝐈𝐕𝐄` **ᴜʙ ɪꜱ ᴜᴘ ᴀɴᴅ ʀᴜɴɴɪɴɢ**
 ━━
 """
 
@@ -46,7 +46,7 @@ async def main():
             )
         except Exception as a:
             LOGGER("main").warning(a)
-    LOGGER("ProjectMan").info(f"PyroMan-UserBot v{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
+    LOGGER("ProjectMan").info(f"PyroMan-UserBot v{BOT_VER} [🔥 ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ  : sᴜᴍɪᴛ  🔥]")
     if bot1 and not str(BOTLOG_CHATID).startswith("-100"):
         await create_botlog(bot1)
     await idle()
